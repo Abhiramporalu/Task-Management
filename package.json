@@ -4,7 +4,7 @@
   "description": "Full Stack Team Task Manager",
   "main": "backend/src/server.js",
   "scripts": {
-    "start": "node backend/src/server.js",
+    "start": "NODE_ENV=production node backend/src/server.js",
     "build": "npm install && cd backend && npm install && cd ../frontend && npm install && npm run build",
     "install-all": "npm install && cd backend && npm install && cd ../frontend && npm install"
   },
